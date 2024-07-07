@@ -70,7 +70,7 @@ function Relevance(){
         }
     };
     return(
-        <div className='p-4 w-[600px] h-[650px] flex flex-col items-center graphcontainer rounded-lg'>
+        <div className='p-4 w-[550px] h-[630px] flex flex-col items-center graphcontainer rounded-lg'>
            <Skeleton></Skeleton>
           <div className='text-[30px] font-bold '>Relevance</div>
             {chartData && <PolarArea data={chartData} options={options}/>}

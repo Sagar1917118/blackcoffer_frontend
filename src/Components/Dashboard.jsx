@@ -8,7 +8,7 @@ import Year from "./Year";
 import BarChart from "./BarChart";
 const Dashboard = () => {
   return(
-    <div className=" w-full flex flex-wrap justify-evenly p-4 gap-10">
+    <div className=" w-full flex flex-wrap   justify-evenly p-4 gap-10 dashboard">
   <Intensity></Intensity>
   <Likelihood></Likelihood>
   <Relevance></Relevance>
